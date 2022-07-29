@@ -1,0 +1,328 @@
+body{
+    background-color: silver;
+      }
+
+.Banner{
+    width: 100%;
+    height: auto;
+    
+}
+
+ul.a {
+	margin: 0;
+	padding: 0;
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+li.a {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    float: left;
+    width: 100%;
+}
+
+
+div a {
+	display: block;
+    width: auto;
+    
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 15px;
+}
+div a:focus,
+div a:hover,
+div li[aria-current] a:focus,
+div li[aria-current] a:hover 
+{
+	color: black;
+	background-color: darkgrey;
+}
+
+.Menschen{
+    background-color: white;
+    max-width: 100%;
+    padding: 100px;
+    
+}
+.Angestellter{
+   float: left;
+   max-width: 100%;    
+   margin: 35px;   
+   margin-left: 80px; 
+}
+
+.Zubehör{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.rund{
+    border-radius: 300px;
+	-moz-border-radius: 300px;
+	-webkit-border-radius: 300px;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    margin: 80px;
+    
+}
+
+h2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.Werkstatt{
+    position: relative;
+    float: none;
+    display: flex;
+    width: 100%;  
+    background-color: white;
+    margin-top: 100px;
+}
+
+.TextWerkstatt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    margin: 40px;
+    width: 100%;
+    align-self: center;
+}
+
+.Details{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 40px;
+    margin-left: 80px;  
+}
+
+.Reparatur{
+    position: relative;
+    text-align: center;
+    color: black;
+	font-family: Arial, Helvetica, sans-serif;  
+    font-size: 30px; 
+    text-decoration: none;
+	font-weight: bold;
+    margin: 10px;
+}
+
+.Vielfalt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+    margin: 70px;
+}
+
+.Übersicht{
+   display: flex;
+   position: relative;
+   width: 100%;
+   box-sizing: border-box;
+   background-color: white;
+   
+}
+
+.Produkt{
+    margin: 30px;
+    width: 25%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+h3{
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 25px;
+    color: #303030;    
+    text-align: center;  
+    margin-bottom: -10px;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 15px;
+    color: black;  
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 12px;
+    color: black;  
+    font-style: italic;
+    text-align: justify;
+    width: 250px;
+}
+
+.Überschriften{
+    background-color: dimgray;
+    padding: 20px;
+    display: block;
+    max-width: 100%;
+}
+
+.Text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+    margin: 80px;
+    width: 50%;
+}
+
+.Team{
+    margin: 80px; 
+    position: relative;
+    float: none;
+    display: flex;
+    max-width: 100%;  
+        
+}
+
+.TextTeam{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    max-width: 100% ;  
+    
+}
+
+.Verkauf{
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  float: none;
+    
+}
+    
+.Info{
+   background-color: white;
+   margin: 20px;
+   
+   padding: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   text-align: justify;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   max-width: 25%;     
+}
+
+.Auswahl{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+   
+
+  }
+
+.EBike{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+margin: 20px;
+align-items: center;
+text-align: center;
+background-color: white;
+padding: 10px;
+max-width: 200px;
+height: 250px;
+}
+
+.€{
+    width: 200px;
+    height: 109px;
+}
+
+.Kontakt{
+   margin: 80px;
+    position: relative;
+    float: none;
+    display: flex;
+    position: relative;
+    max-width: 100%;  
+    background-color: white;
+    align-items: center;
+    text-align: center;  
+}
+
+.TextKontakt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    margin: 40px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+ 
+    
+}
+
+.Impressum{
+    background-color: white;
+    padding: 10px;
+    max-width: 100%;
+    margin: 120px;
+    position: relative;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+.Datenschutz{
+   margin: 90px;
+}
+p.Ü{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.Datenverarbeitung {
+    list-style-type: square;
+  }
